@@ -90,7 +90,7 @@ for (let g = 0; g < groupCount; g++) {
 }
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://github.com/Kira545-Rika/pr8/refs/heads/main/sundowner_overlook_2k.hdr",
+	"https://raw.githubusercontent.com/Kira545-Rika/pr8/refs/heads/main/sundowner_overlook_2k.hdr",
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
