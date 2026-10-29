@@ -38,7 +38,7 @@ for (let g = 0; g < groupCount; g++) {
 	const video = document.createElement("video");
 	video.crossOrigin = "anonymous";
 	video.src =
-		"https://github.com/Kira545-Rika/pr8/raw/refs/heads/main/particles.webm";
+		"https://github.com/Kira545-Rika/pr8/main/particles.webm";
 	video.loop = true;
 	video.muted = true;
 	video.playbackRate = 0.010 + Math.random() * 1.0;
